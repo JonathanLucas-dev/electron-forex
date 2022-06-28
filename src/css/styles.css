@@ -1,0 +1,97 @@
+* {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;  
+}
+
+body{
+    background-color: #222731
+
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    width: 100%;
+}
+
+.boxForex
+{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxForex .boxNameForex {
+    width: 10%;
+    text-align: center;
+}
+
+.boxForex p{
+    width: 13%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.boxTitle{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: -50px;
+}
+
+.boxTitle p {
+    font-size: 0.7rem;
+    color: #dadada98;
+    text-align: center;
+    width: 12.5%;
+    text-align: center;
+}
+
+.boxNameForex {
+    display: flex;
+    align-items: center;
+}
+
+.boxNameForex img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.primaryColumn {
+    background-color: #222731;
+}
+
+.secondColumn{
+    background-color: #2b303c;
+}
+
+#sinalizationForex{
+    position: absolute;
+    left: 25px;
+}
+
+.sinalizationForexRed {
+    background-color: red;
+    border-radius: 100%;
+    box-shadow: 0 0 1em red;
+    height: 5px;
+    margin-right: 25px;
+    padding: 2px;
+    width: 5px;
+}
+
+.sinalizationForexGreen {
+    background-color: rgb(2, 238, 2);
+    border-radius: 100%;
+    box-shadow: 0 0 1em rgb(2, 255, 2);   
+    height: 5px;
+    margin-right: 25px;
+    padding: 2px;
+    width: 5px;
+}
