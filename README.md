@@ -24,7 +24,4 @@ Esse projeto foi construído no intuito de mostrar as cotações de algumas moed
 
 3. E pra iniciar a aplicação, rode o comando `npm start` 
 
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
